@@ -13,7 +13,7 @@ class Packet:
     TEXTMESSAGE  = 11
 
 username    = "PeeBot"
-server_pass = "wingboner"
+server_pass = ""
 
 class BotClient(Protocol):
     def connectionMade(self):
