@@ -3,8 +3,8 @@ from twisted.internet.protocol import ClientFactory
 from client import *
 
 # Server information
-server_ip   = "mumble.ehsankia.com"
-server_port = 64742
+server_ip   = "www.example.com"
+server_port = 1234
 
 class BotClientFactory(ClientFactory):
     protocol = BotClient
